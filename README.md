@@ -25,12 +25,9 @@ Não tem banco de dados interno e nem externo.
 Não tem login de usuário.
 
 
-
 3.	DATAS IMPORTANTES
 Segue abaixo as datas importante do desenvolvimento:
-Data	Evento
 10/03/2016	Início do planejamento
-
 10/03/2016	Início do desenvolvimento
 01/06/2016	Entrega para teste
 09/06/2016	Fim do teste
@@ -42,7 +39,7 @@ Segue abaixo os requisitos:
 Requisitos	Ferramentas
 Sistema operacional	 Mínimo Android API 10: Android 2.3.3 (Gingerbread)
 
-	Tecnologias
+Tecnologias
 Linguagem de programação	Java orientado a objetos
 Framework WEB	Não existente
 IDE 	Android Studio
@@ -52,37 +49,43 @@ Servidor Web	Não existente
 5.	PROCEDIMENTO E ALTERAÇAO DE CONFIGURAÇÃO DO AMBIENTE
 Descrever o processo de implantação.
 Nesta versão foi Necessario atualização para adaptação da classe do splash na IDE Android Studio. Devido funções usadas como Runnable para android support repositor ver 32
-
 Teste efetuado em dispositos spmatphone Motorola XT305, MOTOXPLAY, e ferramenta Bluestacks
 
 
 6.	ATIVIDADES REALIZADAS NO PERÍODO
 
-1	Inserido ícone personalizado 
-	Possibilitar o usuário a identificação da aplicação de forma atrativa. 
-	Concluído
-	Imagem editada de imagens google na ferramenta PhotoScape
+1
+Inserido ícone personalizado 
+Possibilitar o usuário a identificação da aplicação de forma atrativa. 
+Concluído
+Imagem editada de imagens google na ferramenta PhotoScape
 
-2	inserido tela de splash	Para melhor a aparência do aplicativo.	
+2
+inserido tela de splash	Para melhor a aparência do aplicativo.	
 Concluído	
 Criado nova classejava e editado o androidManifest.xml para definir como tela inicial (launcher).
 
-3	modificado backgroud para padrão da IDE	Backgroud do layout na cor preta as letras não apareciam em na ferramenta (bluestacks) e dispositovos testados mais novos não apareciam bonita segundo usuario. sendo assim modificada para backgroud padrão. 
-	Concluído	
+3	
+modificado backgroud para padrão da IDE	Backgroud do layout na cor preta as letras não apareciam em na ferramenta (bluestacks) e dispositovos testados mais novos não apareciam bonita segundo usuario. sendo assim modificada para backgroud padrão. 
+Concluído	
 
-4	Compartibilidade para Sistema operacional Android API 10: Android 2.3.3 (Gingerbread) e resolução telas.
+4	
+Compartibilidade para Sistema operacional Android API 10: Android 2.3.3 (Gingerbread) e resolução telas.
 Em estruturas de projeto flavors foi  possível implementação a adaptação para maior abrangência de versão do sistema operacacional android API 10: Android 2.3.3 (Gingerbread) e também necessário a mudança versão de previsão do layout da IDE para ajuste  de tamanho de tela no  dispositivo Motorola XT305.
-	Concluído	
+Concluído	
 
-5	Tradução do Sistema	Tradução dos botões e resposta das funções CRUD para português.	
+5	
+Tradução do Sistema	Tradução dos botões e resposta das funções CRUD para português.	
 Concluído
 Atualmente somente português antes era em inglês 
 
-6	Nome aplicativo	Mudadado nome do aplicativo (antes GfineP para AnoteJa)  devida caracteriticas  da estrutura não implementada.	Concluído	
+6	
+Nome aplicativo	Mudadado nome do aplicativo (antes GfineP para AnoteJa)  devida caracteriticas  da estrutura não implementada.	Concluído	
 
-7	Campo para escrever a anotação	O espaço para escrever anotação edittext agora auto apaga texto.
-	Concluído
-	No arquivo xml do layout foi editado como exemplo a seguir android:text="Enter Name" para android:hint="Enter Name"
+7	
+Campo para escrever a anotação	O espaço para escrever anotação edittext agora auto apaga texto.
+Concluído
+No arquivo xml do layout foi editado como exemplo a seguir android:text="Enter Name" para android:hint="Enter Name"
 Ele exibe o texto quando o campo de entrada está vazia, selecionada ou não
 
 
