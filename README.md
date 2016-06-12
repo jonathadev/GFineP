@@ -8,13 +8,16 @@ INTRODUÇÃO
 Este documento provê uma visão geral da versão do aplicativo Anote Já que está sendo liberada. Aqui descreveremos as funcionalidades do aplicativo, bem como seus problemas e limitações conhecidos. Por último são descritas as demandas e os problemas que foram resolvidos para liberação da versão atual.
 
 1.	NOTA DE RELEASE A SER PUBLICADO
-•	Funcionalidade 1 – Inserido iconepersonalizado 
-•	Funcionalidade 2 – inserido tela de splash
-•	Funcionalidade 3 – modificado backgroud para padrão da IDE.
-•	Funcionalidade 4 – Compartibilidade para Sistema operacional Android API 10: Android 2.3.3 (Gingerbread)
-•	Funcionalidade 5 – Tradução dos botões e resposta das funções CRUD para português.
-•	Funcionalidade 6 – Mudadado nome do aplicativo (antes GfineP para AnoteJa)  devida caracteriticas  da estrutura não implementada.
-•	Funcionalidade 7 - O espaço para escrever anotação agora auto apaga texto.
+•	  1 – Inserido iconepersonalizado 
+•   2 – inserido tela de splash
+•	  3 – modificado backgroud para padrão da IDE.
+•	  4 – Compartibilidade para Sistema operacional Android API 10: Android 2.3.3 (Gingerbread)
+•	  5 – Tradução dos botões e resposta das funções CRUD para português.
+•	  6 – Mudadado nome do aplicativo (antes GfineP para AnoteJa)  devida caracteriticas  da estrutura não implementada.
+•	  7 - O espaço para escrever anotação agora auto apaga texto.
+•	  8 – Concertado botoes deletar e editar.
+•	  9 – Removido opção "Nova Despesas" 
+
 
 
 2.	PROBLEMAS CONHECIDOS E LIMITAÇÕES
@@ -88,9 +91,18 @@ Concluído
 No arquivo xml do layout foi editado como exemplo a seguir android:text="Enter Name" para android:hint="Enter Name"
 Ele exibe o texto quando o campo de entrada está vazia, selecionada ou não
 
+8
+Botoes deletar e editar	antes fechava a aplicação caso nenhuma anotação selecionada.	Concluido	
+
+9
+Remover opção "Nova Despesas" e classes java layout xml	Itens não implementados, sendo desnecessários.	Concluido	
+
 
 REFERÊNCIAS  
 Edittext auto apagar - http://pt.androids.help/q26205
 CRUD – video em inglês  https://www.youtube.com/watch?v=WnTKJKNB4kc 
 Icone e splash pelo Curso Udemy no Android no Android Studio https://www.udemy.com/draft/354406/?utm_medium=post_enroll&dl=1&utm_campaign=post_enroll&aa7ac=EyN/HjgDByVQHV8eLw4FJFBR&utm_source=email_pro&utm_content=t1
-Erros e demais adaptações site http://pt.stackoverflow.com/
+Erros android studio, git e demais adaptações no site http://pt.stackoverflow.com/
+Vídeo no youtube Android Studio - Como exportar APK https://www.youtube.com/watch?v=f8qTzVfO4gA
+Github tutorial http://www.guj.com.br/t/como-colocar-projetos-no-github/190687/2
+
