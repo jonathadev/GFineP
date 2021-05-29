@@ -1,7 +1,5 @@
 # Anote Já!
 
-JÔNATHA MENDONÇA DOS SANTOS  534595 
-
 NOTA DE LIBERAÇÃO: Anote Já!
 
 INTRODUÇÃO
